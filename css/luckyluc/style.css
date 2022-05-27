@@ -1,0 +1,19 @@
+/*
+Theme Name: LuckyLuc
+Theme URI: http://www.lucianabruscino.com
+Description: It is lightweight responsive design theme.
+Author: Luciana Bruscino
+Author URI: http:///www.lucianabruscino.com
+Version: 1.0
+Tags: responsive, white
+
+This theme, like WordPress, is licensed under the GPL.
+Use it for fun
+
+*/
+
+@import url('css/normalize.min.css');
+@import url('css/normalize.min.css');
+@import url('css/main.css');
+@import url('css/theme_style.css');
+@import url('css/animations.css');

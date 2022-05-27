@@ -82,6 +82,11 @@ body {
    /* border-bottom: 20px solid #e44d26;*/
 
 }
+.logo_image{
+    padding: 0;
+    width: 110px;
+
+}
 
 .footer-container,
 .main aside {
@@ -91,7 +96,7 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-   background: #413F3F;
+   background: #000 /*#413F3F*/;
 }
 
 

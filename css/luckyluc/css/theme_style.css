@@ -1,7 +1,7 @@
 /* ==========================================================================
    Sections
    ========================================================================== */
-section{
+   section{
 }
 .hide { display: none;}
 .main-section{
@@ -35,7 +35,11 @@ section{
     position: relative;
     display: block;
 }
+.logo{
+    padding: 5px 0;
+    width: 70px;
 
+}
 .menu-title{
     text-align:center;
       border-bottom:1px solid #D8D9DA;
@@ -203,5 +207,4 @@ button:hover {
     border-width: 9.5px 0 9.5px 17px;
     border-color: transparent transparent transparent rgba(255, 255, 255, 1);
 }
-
 
