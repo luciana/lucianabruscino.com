@@ -1,0 +1,102 @@
+/* Animations */
+
+#home .logo,
+#home header[role="banner"] li,
+.title h1{
+  opacity: 0;
+  -webkit-transform: translateY(-20px);
+     -moz-transform: translateY(-20px);
+          transform: translateY(-20px);
+  -webkit-animation: fadein .6s .5s 1 forwards ease-in-out;
+     -moz-animation: fadein .6s .5s 1 forwards ease-in-out;
+          animation: fadein .6s .5s 1 forwards ease-in-out;
+}
+
+  #home header[role="banner"] img.logo{
+    -webkit-animation-delay: .8s;
+       -moz-animation-delay: .8s;
+            animation-delay: .8s;
+  }
+  #home header[role="banner"] li.home{
+    -webkit-animation-delay: 1.8s;
+       -moz-animation-delay: 1.8s;
+            animation-delay: 1.8s;
+  }
+  #home header[role="banner"] li.work{
+    -webkit-animation-delay: 1.2s;
+       -moz-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+  }
+  #home header[role="banner"] a.about{
+    -webkit-animation-delay: 1.4s;
+       -moz-animation-delay: 1.4s;
+            animation-delay: 1.4s;
+  }
+
+
+/* Keyframes */
+
+@-webkit-keyframes fadein{
+  0%{
+    -webkit-transform: translateY(-20px);
+    opacity: 0;
+  }
+  100%{
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein{
+  0%{
+    -moz-transform: translateY(-20px);
+    opacity: 0;
+  }
+  100%{
+    -moz-transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fadein{
+  0%{
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bgslide{
+  0%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: -2000px -2000px;
+  }
+  100%{
+    background-position: left bottom;
+  }
+}
+@-moz-keyframes bgslide{
+  0%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: -2000px -2000px;
+  }
+  100%{
+    background-position: left bottom;
+  }
+}
+@keyframes bgslide{
+  0%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: -2000px -2000px;
+  }
+  100%{
+    background-position: left bottom;
+  }
+}
