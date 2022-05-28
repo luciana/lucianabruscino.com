@@ -69,7 +69,7 @@ section{
     list-style: none;
 }
 .item-body ul li{ 
-    line-height: 14px;
+    line-height: 30px;
 }
 
 .project-list li{
